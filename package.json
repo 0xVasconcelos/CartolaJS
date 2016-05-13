@@ -1,0 +1,29 @@
+{
+  "name": "cartolajs",
+  "version": "0.0.1",
+  "description": "API não-oficial do Cartola FC para Node.js",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslg26/CartolaJS.git"
+  },
+  "keywords": [
+    "Cartola",
+    "Node",
+    "Globo"
+  ],
+  "author": "Lucas Vasconcelos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucaslg26/CartolaJS/issues"
+  },
+  "homepage": "https://github.com/lucaslg26/CartolaJS#readme",
+  "dependencies": {
+    "deasync": "^0.1.6",
+    "promise": "^7.1.1",
+    "request": "^2.72.0"
+  }
+}
