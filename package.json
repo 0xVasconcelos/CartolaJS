@@ -1,6 +1,6 @@
 {
   "name": "cartolajs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API não-oficial do Cartola FC para Node.js",
   "main": "./lib/index.js",
   "scripts": {
