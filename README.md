@@ -31,27 +31,35 @@ Auth.done(function(data) {
     glbId: data.glbId
   })
   Cartola.meuTimeInfo(function(data, err) {
-    if(err) console.log(err)
-    console.log("Nome: %s\nCartoleiro: %s", data.time.nome, data.time.nome_cartola)
+    if (err) console.log(err)
+    else
+      console.log("Nome: %s\nCartoleiro: %s", data.time.nome, data.time.nome_cartola)
   })
 
   Cartola.minhasLigas(function(data, err) {
-    if(err) console.log(err)
-    data.ligas.forEach(function(liga){
-      console.log("Nome: %s\nDescricao: %s", liga.nome, liga.descricao)
-    })
+    if (err) console.log(err)
+    else
+      data.ligas.forEach(function(liga) {
+        console.log("Nome: %s\nDescricao: %s", liga.nome, liga.descricao)
+      })
   })
 
   Cartola.clubes(function(data, err) {
-    if(err) console.log(err)
-    Object.keys(data).forEach(function(id){
-      console.log("[%s] Nome: %s\nAbreviação: %s", data[id].id, data[id].nome, data[id].abreviacao);
-    })
+    if (err) console.log(err)
+    else
+      Object.keys(data).forEach(function(id) {
+        console.log("[%s] Nome: %s\nAbreviação: %s", data[id].id, data[id].nome, data[id].abreviacao);
+      })
   })
-  Cartola.liga('dengo-kings-ufpa', function(data, err){
-    console.log(data.nome, err)
+  Cartola.liga('dengo-kings-ufpa', function(data, err) {
+    if (err) console.log(err)
+    else
+      console.log(data)
   })
 
 })
 
+Auth.catch(function(err) {
+  console.log(err)
+})
 ```
