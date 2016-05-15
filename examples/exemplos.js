@@ -37,6 +37,15 @@ Auth.done(function(data) {
     else
       console.log(data)
   })
+  Cartola.time('dengostinho-f-c', function(data){
+    data.atletas.forEach((d) => {
+      console.log("Nome: %s Apelido: %s Preço: %s", d.nome, d.apelido, d.preco_num)
+    })
+  })
+
+  Cartola.atletasPontuados(function(data){
+    console.log(data.atletas[42411])
+  })
 
 })
 
