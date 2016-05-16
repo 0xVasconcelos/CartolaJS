@@ -1,5 +1,7 @@
 #CartolaJS  [![Build Status](https://img.shields.io/travis/lucaslg26/cartolajs.svg)](https://travis-ci.org/lucaslg26/cartolajs) [![npm version](http://img.shields.io/npm/v/cartolajs.svg)](https://npmjs.org/package/cartolajs) [![npm downloads](https://img.shields.io/npm/dm/cartolajs.svg)](https://npmjs.org/package/cartolajs) [![NPM](https://img.shields.io/npm/l/cartolajs.svg)](https://github.com/lucaslg26/cartolajs/blob/master/LICENSE.md) [![David](https://img.shields.io/david/lucaslg26/cartolajs.svg)](https://david-dm.org/lucaslg26/cartolajs)
 
+[![Join the chat at https://gitter.im/lucaslg26/CartolaJS](https://badges.gitter.im/lucaslg26/CartolaJS.svg)](https://gitter.im/lucaslg26/CartolaJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Sobre
 
 API Wrapper do Cartola FC para Node.js!
